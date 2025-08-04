@@ -1,0 +1,7 @@
+[language-server.chicken-lsp-server]
+command = "chicken-lsp-server"
+args = [ "--log-level debug" ]
+
+[[language]]
+name = "scheme"
+language-servers = [ "chicken-lsp-server" ]
